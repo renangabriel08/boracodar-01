@@ -1,0 +1,173 @@
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+
+    height: 100vh;
+    background: #0F0D13;
+    .musica1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 26.648rem;
+        height: 49.8rem;
+        
+        border-radius: 0.9603rem;
+        background-color: #2A2141;
+        .elementosMusica1 {
+            display: flex;
+            flex-direction: column;
+            gap: 28.81px;
+            logo-musica {
+                width: 18.966rem;
+                height: 18.966rem;
+            }
+            .textos {
+                display: flex;
+                flex-direction: column;
+                gap: 9.6px;
+                h2 {
+                    font-weight: 70rem;
+                    font-size: 2.4007rem;
+                }
+                h3 {
+                    font-weight: 40rem;
+                    font-size: 1.9206rem;
+                    opacity: 0.67;
+                }
+            }
+            .botoes {
+                display: flex;
+                gap: 5.042rem;
+                justify-content: center;
+            }
+            .tempo {
+                display: flex;
+                flex-direction: column;
+                gap: 9.6px;
+                align-items: center;
+                .barra-tempo {
+                    width: 189.66px;
+                    height: 6px;
+                }
+                .texto-tempo {
+                    display: flex;
+                    gap: 11.765rem;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    
+    .elementos-direita {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        .musica2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            width: 35.771rem;
+            height: 26.668rem;
+            
+            border-radius: 0.9603rem;
+            background-color: #2A2141;
+            .elementosMusica2 {
+                display: flex;
+                flex-direction: column;
+                gap: 28.81px;
+                .topo {
+                    display: flex;
+                    gap: 2.881rem;
+                    align-items: center;
+                    .logo-musica {
+                        max-width: 84.03px;
+                        max-height: 84.03px;
+                    }
+                    .textos {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 9.6px;
+                        h2 {
+                            font-weight: 70rem;
+                            font-size: 2.4007rem;
+                        }
+                        h3 {
+                            font-weight: 40rem;
+                            font-size: 1.9206rem;
+                            opacity: 0.67;
+                        }
+                    }
+                }
+                .botoes {
+                    display: flex;
+                    gap: 5.042rem;
+                    justify-content: center;
+                }
+                .tempo {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 9.6px;
+                    align-items: center;
+                    .barra-tempo {
+                        width: 30.009rem;
+                        height: 0.6rem;
+                    }
+                    .texto-tempo {
+                        display: flex;
+                        gap: 22.808rem;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+        
+        .musica3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            width: 35.771rem;
+            height: 19.926rem;
+            
+            border-radius: 0.9603rem;
+            background-color: #2A2141;
+            .elementosMusica3 {
+                display: flex;
+                flex-direction: column;
+                gap: 28.81px;
+                .topo {
+                    display: flex;
+                    gap: 2.881rem;
+                    align-items: center;
+                    .logo-musica {
+                        max-width: 84.03px;
+                        max-height: 84.03px;
+                    }
+                    .textos {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 9.6px;
+                        h2 {
+                            font-weight: 70rem;
+                            font-size: 2.4007rem;
+                        }
+                        h3 {
+                            font-weight: 40rem;
+                            font-size: 1.9206rem;
+                            opacity: 0.67;
+                        }
+                    }
+                }
+                .botoes {
+                    display: flex;
+                    gap: 5.042rem;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
